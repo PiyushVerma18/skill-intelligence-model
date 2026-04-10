@@ -1,6 +1,7 @@
-# Skill Intelligence Architect (SIA)
+# 🧠 Skill Intelligence Architect (SIA)
+[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/piyushverma23/skill-intelligence-demo)
 
-Context-Aware Complexity Estimation via R1-Reasoning Distillation
+---
 
 📌 **Executive Summary**
 
