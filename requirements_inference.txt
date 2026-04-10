@@ -1,0 +1,21 @@
+# vLLM Nightly for Python 3.12 compatibility
+
+--extra-index-url https://wheels.vllm.ai/nightly
+
+vllm
+
+
+
+# Core Data Stack
+
+numpy==2.0.1
+
+pandas<3.0.0
+
+pyarrow
+
+torch
+
+scikit-learn
+
+matplotlib
