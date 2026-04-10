@@ -108,5 +108,21 @@ The resulting convergence shows a stable learning rate and successful logic tran
   <img src="docs/TrainingLoss_pic.png" width="70%"></p>
 
 
+```mermaid
+graph TD
+    A[Anthropic claude-sonnet-4-6] -->|Stage 1: Seed Generation| B(Seed Training Data)
+    B -->|Stage 2: Distillation| C{DeepSeek-R1-8B + LoRA}
+    C -->|Stage 3: Verified Auditing| D(Intermediate Auditor Model)
+    
+    E[Anthropic claude-sonnet-4-6] -->|Context Generation| F(Synthetic Responsibilities)
+    F --> D
+    D -->|Complexity Labeling| G(Clean-Room Synthetic Dataset)
+    
+    G -->|Stage 4: Final Fine-Tuning| H[Final Skill Intelligence Model]
+    H -->|Stage 5: Deployment| I[Live Inference & Gradio UI]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style H fill:#00ff00,stroke:#333,stroke-width:4px
+    style D fill:#bbf,stroke:#333,stroke-width:2px```
 
 
