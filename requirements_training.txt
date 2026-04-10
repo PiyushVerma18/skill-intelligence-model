@@ -1,0 +1,27 @@
+# Core Stack
+
+numpy<2.0
+
+pyarrow<15.0
+
+pandas<2.2
+
+torch --index-url https://download.pytorch.org/whl/cu124
+
+torchvision --index-url https://download.pytorch.org/whl/cu124
+
+torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+xformers --index-url https://download.pytorch.org/whl/cu124
+
+
+
+# Unsloth & Fine-tuning
+
+unsloth[cu124-ampere-torch2110] @ git+https://github.com/unslothai/unsloth.git
+
+huggingface_hub
+
+transformers
+
+datasets
