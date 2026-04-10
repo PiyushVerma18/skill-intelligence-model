@@ -26,7 +26,7 @@ By Distilling reasoning from high-parameter "Teacher" models into a specialized 
 
 **Phase 1: Knowledge Distillation (The Teacher)**
 
-To bypass the lack of granularly labeled JD datasets, we utilized Anthropic (Claude 3.5 Sonnet) to generate a high-quality "Ground Truth" synthetic dataset.
+To bypass the lack of granularly labeled JD datasets, we utilized Anthropic (claude-sonnet-4-6) to generate a high-quality "Ground Truth" synthetic dataset.
 
 - **Rubric-Augmented Prompting:** The Teacher model was provided with a strict 5-level rubric.
 
