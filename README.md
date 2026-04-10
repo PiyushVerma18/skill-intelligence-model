@@ -94,4 +94,19 @@ The model operates on a standardized complexity scale to ensure objective evalua
 
 - **Market Benchmarking:** Correlating difficulty scores with global salary benchmarks for talent acquisition strategy.
 
-  
+
+## 🚀 Training Results
+
+The distillation process was executed via `scripts/TrainingCode.py`. 
+
+The resulting convergence shows a stable learning rate and successful logic transfer.
+
+
+
+[View Training Script](./scripts/TrainingCode.py) | [View Loss Curve](./docs/TrainingLoss_pic.png)<p align="center">
+
+  <img src="docs/TrainingLoss_pic.png" width="70%"></p>
+
+
+
+
